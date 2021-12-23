@@ -4,6 +4,7 @@
 }
 
 body {
+    text-align: center;
     font-family: 'Poppins', sans-serif;
     color: #454959;
     font-weight: 300;
@@ -18,4 +19,12 @@ ul li {
 
 header, footer {
     background-color:#f8f8ff;
+}
+
+section {
+    margin: 50px 0px;
+}
+
+img {
+    width: 320px;
 }
