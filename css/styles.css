@@ -9,6 +9,13 @@ body {
     font-weight: 300;
 }
 
+ul li {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    font-weight: 700;
+}
+
 header, footer {
     background-color:#f8f8ff;
 }
