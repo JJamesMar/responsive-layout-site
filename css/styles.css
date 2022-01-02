@@ -11,6 +11,10 @@ body {
     font-weight: 300;
 }
 
+a {
+    color: darkblue;
+}
+
 ul li {
     background-color: white;
     margin: 10px;
