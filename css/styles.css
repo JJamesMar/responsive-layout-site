@@ -1,14 +1,13 @@
-* {    
+* { 
     margin: 0;
-    padding: 0;
+    padding: 0;   
     box-sizing: border-box;   
 }
 
 body {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     color: #454959;
-    font-weight: 300;
+    font: 300 100%/1.5 'Poppins', sans-serif;
 }
 
 a {
@@ -24,8 +23,11 @@ ul li {
 
 header, footer {
     background-color:#f8f8ff;
+    
 }
-
+header {
+    margin: -1rem -1rem 1rem;
+}
 
 img, body {
     width: 100%;
