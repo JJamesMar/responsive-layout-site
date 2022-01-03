@@ -10,24 +10,25 @@ body {
     font: 300 100%/1.5 'Poppins', sans-serif;
 }
 
-a {
-    color: darkblue;
-}
-
 ul li {
     background-color: white;
-    margin: 10px;
-    padding: 5px;
+    margin: 10px -25px;
+    padding: 10px;
     font-weight: 700;
     list-style: none;
 }
 h1 {
     margin-top: 0;
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.0rem;
 }
 
 header, footer {
     background-color:#f8f8ff;
-    
+    hyphens: auto;
 }
 
 img{
@@ -36,14 +37,6 @@ img{
 }
 section img, p{
     margin: 15px;
-}
-
-.main-header{
-    
-}
-
-.main-footer {
-
 }
 
 .container {
@@ -66,5 +59,17 @@ section img, p{
 
 #bio {
     margin: 10px 10px;
-    padding: 10px 25px 25px;
+    padding: 10px 0px 25px;
+}
+
+
+#portfolio {
+    margin: 20px 10px 10px;
+    padding: 25px;
+}
+
+
+@media (min-width: 768px) {
+
+
 }
