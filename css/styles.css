@@ -10,6 +10,7 @@ body {
     font: 300 100%/1.5 'Poppins', sans-serif;
 }
 
+
 ul li {
     background-color: white;
     margin: 10px -25px;
@@ -50,6 +51,12 @@ section img, p{
 .footer-container{
     display: flex;
     justify-content: space-between;
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    font-style: normal;
 }
 
 .backtop {
