@@ -49,6 +49,13 @@ section img, p{
     margin-bottom: 0;
 }
 
+.line {
+        margin: 0 auto;
+        padding: 15px;
+        width: 320px;
+        border-top: 1px solid #e7e2e2;
+        border-bottom: 1px solid #e7e2e2;
+}        
 .name {
     padding: 15px;
 }
@@ -62,7 +69,10 @@ section img, p{
     padding: 10px 0px 25px;
 }
 
-
+#contact{
+    margin: 40px 20px 20px;
+    padding: 50px 20px 20px;
+}
 #portfolio {
     margin: 20px 10px 10px;
     padding: 25px;
