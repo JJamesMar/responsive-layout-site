@@ -44,6 +44,13 @@ section img, p{
     margin: 0 auto;
 
 }
+.main-footer {
+    padding-bottom: 50px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
 
 .backtop {
     margin-bottom: 0;
@@ -52,7 +59,7 @@ section img, p{
 .line {
         margin: 0 auto;
         padding: 15px;
-        width: 320px;
+        max-width: 320px;
         border-top: 1px solid #e7e2e2;
         border-bottom: 1px solid #e7e2e2;
 }        
