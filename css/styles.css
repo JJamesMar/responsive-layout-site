@@ -56,7 +56,6 @@ section img, p{
     display: flex;
     flex-direction: column;
     font-weight: bolder;
-    font-style: normal;
 }
 
 .backtop {
