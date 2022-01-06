@@ -92,6 +92,10 @@ section img, p{
 
 
 @media (min-width: 768px) {
-
+    ul li {
+        display: inline-block;
+        background-color: #f8f8ff;
+        width: 30%;
+    }
 
 }
