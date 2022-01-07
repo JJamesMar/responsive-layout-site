@@ -62,11 +62,11 @@ section img, p{
 }
 
 .line {
-        margin: 0 auto;
-        padding: 15px;
-        max-width: 320px;
-        border-top: 1px solid #e7e2e2;
-        border-bottom: 1px solid #e7e2e2;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 320px;
+    border-top: 1px solid #e7e2e2;
+    border-bottom: 1px solid #e7e2e2;
 }        
 .name {
     padding: 15px;
@@ -93,9 +93,27 @@ section img, p{
 
 @media (min-width: 768px) {
     ul li {
-        display: inline-block;
+        display: inline-flex;
         background-color: #f8f8ff;
-        width: 30%;
-    }
+        margin: auto 0;
+        padding-bottom: 20px;
+        justify-content: space-between;
+        }
 
+    .profile-container {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-bottom: 5%;
+        text-align: left;
+        }
+
+    .container {
+        width: 95%;
+    }
+    .wrapper {
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1;
+        
+    }
 }
