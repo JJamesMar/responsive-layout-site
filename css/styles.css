@@ -38,7 +38,7 @@ img{
     width: 100%;
     max-width: 320px;
 }
- p{
+p{
     margin: 15px;
 }
 
@@ -52,7 +52,6 @@ img{
 }
 .footer-container{
     display: flex;
-    justify-content: space-between;
 }
 .contact-container {
     display: flex;
@@ -61,8 +60,21 @@ img{
 }
 
 .backtop {
-    margin-bottom: 0;
+    margin-right: auto;
 }
+
+.backtop-2 {
+    margin-left: auto;
+    padding-left: 80px;
+}
+.foot-nav{
+    display: flex;
+}
+
+.hide-2 {
+    background-color: #f8f8ff;
+}
+
 .hide {
     display: none;
 }
@@ -139,6 +151,17 @@ img{
         display: none;
     }
     .hide {
-        display: inline-flex;
+        display: flex;
+    }
+    .foot-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .name-1 {
+        margin-right: auto;
+        padding-right: 50px;
+    }
+    .nav-item {
+        padding-left: 150px;
     }
 }   
