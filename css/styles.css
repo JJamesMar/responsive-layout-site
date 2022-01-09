@@ -63,7 +63,9 @@ img{
 .backtop {
     margin-bottom: 0;
 }
-
+.hide {
+    display: none;
+}
 .line {
     margin: 0 auto;
     padding: 15px;
@@ -132,5 +134,11 @@ img{
         max-width: 700px;
         border-top: 1px solid #e7e2e2;
         border-bottom: 1px solid #e7e2e2;
+    }
+    .hide-2 {
+        display: none;
+    }
+    .hide {
+        display: inline-flex;
     }
 }   
