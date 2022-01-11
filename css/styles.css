@@ -43,7 +43,19 @@ img{
 p{
     margin: 15px;
 }
+.trans-2 {
+    transition-duration: 1s;
+}
 
+.trans-2:hover {
+    border-radius: 50%;
+}
+.trans {
+    transition-duration: .5s;
+}
+.trans:hover {
+    border-radius: 5%;
+}
 .container {
     width: 70%;
     margin: 0 auto;
@@ -52,7 +64,9 @@ p{
 .main-footer {
     padding-bottom: 50px;
 }
-
+.color {
+    color: rgb(218, 172, 47);
+}
 .footer-container{
     display: flex;
 }
