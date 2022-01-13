@@ -137,7 +137,7 @@ p {
 }
 
 .skill-border {
-    border: solid 3px lightgrey;
+    border: solid 3px #dedefa;
     border-radius: 10px;
 
 }
