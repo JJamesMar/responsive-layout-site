@@ -1,3 +1,4 @@
+/* Base Styles --------------------- */
 * { 
     margin: 0;
     padding: 0;  
@@ -36,13 +37,15 @@ header, footer {
     hyphens: auto;
 }
 
-img{
+img {
     width: 100%;
     max-width: 320px;
 }
-p{
+
+p {
     margin: 15px;
 }
+
 .trans-2 {
     transition-duration: 1s;
 }
@@ -50,23 +53,29 @@ p{
 .trans-2:hover {
     border-radius: 50%;
 }
+
 .trans {
     transition-duration: .5s;
 }
+
 .trans:hover {
     border-radius: 5%;
 }
+
 .container {
     width: 70%;
     margin: 0 auto;
 
 }
+
 .main-footer {
     padding-bottom: 50px;
 }
+
 .color {
     color: rgb(218, 172, 47);
 }
+
 .footer-container{
     display: flex;
 }
@@ -86,7 +95,7 @@ p{
     padding-left: 80px;
 }
 
-.foot-nav{
+.foot-nav {
     display: flex;
 }
 
@@ -104,7 +113,8 @@ p{
     max-width: 320px;
     border-top: 1px solid #e7e2e2;
     border-bottom: 1px solid #e7e2e2;
-}        
+}
+
 .name {
     padding: 15px;
     margin-top: 0px;
@@ -121,7 +131,7 @@ p{
     padding: 10px 0px 25px;
 }
 
-#contact{
+#contact {
     margin: 40px 20px 20px;
     padding: 50px 20px 20px;
 }
@@ -140,6 +150,7 @@ p{
 
 }
 
+/* Media Queries ------------------- */
 @media (min-width: 768px) {
     ul li {
         display: inline-flex;
@@ -159,17 +170,21 @@ p{
     .container {
         width: 95%;
     }
+
     .wrapper {
         display: flex;
         flex-wrap: wrap;
     }
+
     .item {
         flex: 1 50%; 
     }
+
     .item-foot{
         width:75%;
         margin: 0 auto;
     }
+
     .line{
         margin: 0 auto;
         padding: 15px;
@@ -177,26 +192,33 @@ p{
         border-top: 1px solid #e7e2e2;
         border-bottom: 1px solid #e7e2e2;
     }
+
     .hide-2 {
         display: none;
     }
+
     .hide {
         display: flex;
     }
+
     .foot-nav {
         display: flex;
         justify-content: space-between;
     }
+
     .name-1 {
         padding-right: 50px;
     }
+
     .nav-item {
         padding-left: 250px;
     }
+
     .name {
         display: flex;
         justify-content: center;
     }
+
     .profile-2 {
         padding: 0px 20px 10px;
 
@@ -227,13 +249,16 @@ p{
         display: flex;
         flex-wrap: wrap;
     }
+
     .item {
         flex: 1 30%; 
     }
+
     .item-foot{
         width:75%;
         margin: 0 auto;
     }
+
     .line{
         margin: 0 auto;
         padding: 15px;
@@ -241,20 +266,25 @@ p{
         border-top: 1px solid #e7e2e2;
         border-bottom: 1px solid #e7e2e2;
     }
+
     .hide-2 {
         display: none;
     }
+
     .hide {
         display: flex;
     }
+
     .foot-nav {
         display: flex;
         justify-content: space-between;
     }
+
     .item-name {
         margin-right: auto;
         padding-right: 50px;
     }
+
     .nav-item {
         padding-left: 450px;
     }
@@ -262,9 +292,11 @@ p{
     .name {
         display: inline-flex;
     }
+
     #skills {
         margin-bottom: 6px;
     }
+    
     nav {
         padding: 5px 0px 25px;
     }
