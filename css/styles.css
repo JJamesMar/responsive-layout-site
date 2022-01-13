@@ -136,7 +136,17 @@ p {
     padding: 50px 20px 20px;
 }
 
-#portfolio, #skil {
+.skill-border {
+    border: solid 3px lightgrey;
+    border-radius: 10px;
+
+}
+
+#skil {
+    margin:10px;
+    pad: 10px;
+}
+#portfolio {
     margin: 20px 10px 10px;
     padding: 25px;
 }
